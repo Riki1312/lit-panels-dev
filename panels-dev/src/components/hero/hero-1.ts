@@ -22,9 +22,9 @@ export class Hero1 extends LitElement {
         <h1 class="display-2">Next Generation Websites.</h1>
         <div>
           <h3 class="heading-2 inline">Build with Panels.</h3>
-          <h3 class="heading-2 inline opacity-50">
+          <h4 class="heading-2 inline opacity-50">
             The ultimate design toolkit for savvy technology startups.
-          </h3>
+          </h4>
         </div>
       </panel-base>
     `;
