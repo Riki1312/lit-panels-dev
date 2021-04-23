@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel *.html --open",
     "build": "parcel build *.html",
-    "hosting": "parcel build *.html -d ../vercel-hosting",
+    "vercel-build": "parcel build *.html -d ../vercel-hosting",
     "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
     "format": "prettier src/* --write"
   },
