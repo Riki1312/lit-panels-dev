@@ -8,18 +8,6 @@
       "dom"
     ],
     "rootDir": "src",
-    "baseUrl": ".",
-    "paths": {
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@styles/*": [
-        "./src/styles/*"
-      ],
-      "@pages/*": [
-        "src/pages/*"
-      ]
-    },
     "esModuleInterop": true,
     "sourceMap": true,
     "allowJs": true,
