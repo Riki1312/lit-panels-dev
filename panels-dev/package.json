@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "parcel *.html --open",
-    "build": "parcel build *.html",
-    "vercel-build": "parcel build *.html -d ../vercel-hosting",
+    "start": "parcel public/*.html --open",
+    "build": "parcel build public/*.html",
+    "vercel-build": "parcel build public/*.html -d ../vercel-hosting",
     "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
     "format": "prettier src/* --write"
   },
