@@ -2,7 +2,6 @@
   "name": "lit-panels-dev",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "scripts": {
     "start": "parcel public/*.html --open",
     "build": "parcel build public/*.html",

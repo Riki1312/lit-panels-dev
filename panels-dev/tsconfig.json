@@ -3,11 +3,9 @@
     "strict": true,
     "target": "esnext",
     "module": "esnext",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["ESNext", "dom"],
     "rootDir": "src",
+    "outDir": "dist",
     "esModuleInterop": true,
     "sourceMap": true,
     "allowJs": true,
