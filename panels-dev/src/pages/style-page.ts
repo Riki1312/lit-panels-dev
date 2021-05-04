@@ -2,7 +2,6 @@ import { LitElement, html, css } from 'lit';
 import { customElement } from 'lit/decorators.js';
 
 import { colors, typography } from '../styles/panel-themes';
-import '../components/components';
 
 @customElement('style-page')
 export class StylePage extends LitElement {

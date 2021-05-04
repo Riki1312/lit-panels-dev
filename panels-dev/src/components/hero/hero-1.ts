@@ -2,7 +2,6 @@ import { LitElement, html, css } from 'lit';
 import { customElement } from 'lit/decorators.js';
 
 import { utilities } from '../../styles/panel-utilities';
-import '../../components/components';
 
 @customElement('hero-1')
 export class Hero1 extends LitElement {
