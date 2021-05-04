@@ -3,11 +3,14 @@
     "strict": true,
     "target": "esnext",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "rootDir": "src",
-    "outDir": "dist",
     "esModuleInterop": true,
     "sourceMap": true,
+    "allowJs": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
