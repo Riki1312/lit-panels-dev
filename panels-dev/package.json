@@ -2,7 +2,6 @@
   "name": "lit-panels-dev",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "scripts": {
     "start": "parcel public/*.html --open",
     "build": "parcel build public/*.html",
@@ -20,7 +19,7 @@
     "eslint": "7.24.0",
     "lit-analyzer": "1.2.1",
     "prettier": "2.2.1",
-    "ts-lit-plugin": "1.2.1",
+    "ts-lit-plugin": "^1.2.1",
     "typescript": "4.2.3"
   },
   "resolutions": {
