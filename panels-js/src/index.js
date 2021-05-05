@@ -1,4 +1,4 @@
-import "./components/base/panel-base";
+import "./components/base/panel-base.js";
 
-import "./components/hero/hero-1";
-import "./components/hero/hero-2";
+import "components/hero/hero-1";
+import "components/hero/hero-2";

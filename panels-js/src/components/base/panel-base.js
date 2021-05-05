@@ -40,3 +40,5 @@ export class PanelBase extends LitElement {
     `;
   }
 }
+
+customElements.define("panel-base", PanelBase);

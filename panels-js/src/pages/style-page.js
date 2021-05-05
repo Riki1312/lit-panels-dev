@@ -97,3 +97,5 @@ export class StylePage extends LitElement {
     `;
   }
 }
+
+customElements.define("style-page", StylePage);

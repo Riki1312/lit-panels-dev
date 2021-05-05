@@ -30,3 +30,5 @@ export class Hero1 extends LitElement {
     `;
   }
 }
+
+customElements.define("hero-1", Hero1);
