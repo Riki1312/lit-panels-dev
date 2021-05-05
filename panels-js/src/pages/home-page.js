@@ -1,11 +1,11 @@
-import { LitElement, html, css } from 'lit';
-import { customElement } from 'lit/decorators.js';
+import { LitElement, html, css } from "lit";
 
-import { utilities } from '../styles/panel-utilities';
+import { utilities } from "../styles/panel-utilities";
 
-@customElement('home-page')
 export class HomePage extends LitElement {
-  static styles = [utilities, css``];
+  static get styles() {
+    return [utilities, css``];
+  }
 
   render() {
     return html`

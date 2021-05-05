@@ -1,7 +1,7 @@
-import { css } from 'lit';
+import { css } from "lit";
 
-import { breakpoints } from './panel-properties';
-import { colors, typography } from './panel-themes';
+import { breakpoints } from "./panel-properties";
+import { colors, typography } from "./panel-themes";
 
 const _layout = css`
   .inline {

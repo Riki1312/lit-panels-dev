@@ -1,55 +1,55 @@
-import { LitElement, html, css } from 'lit';
-import { customElement } from 'lit/decorators.js';
+import { LitElement, html, css } from "lit";
 
-import { colors, typography } from '../styles/panel-themes';
+import { colors, typography } from "../styles/panel-themes";
 
-@customElement('style-page')
 export class StylePage extends LitElement {
-  static styles = [
-    colors,
-    typography,
-    css`
-      .page {
-        background-color: var(--gray-1);
-        color: var(--white-1);
-        max-width: 100vw;
-        min-height: 100vh;
-        overflow-x: hidden;
-      }
+  static get styles() {
+    return [
+      colors,
+      typography,
+      css`
+        .page {
+          background-color: var(--gray-1);
+          color: var(--white-1);
+          max-width: 100vw;
+          min-height: 100vh;
+          overflow-x: hidden;
+        }
 
-      .container {
-        padding: 4% 10%;
-      }
+        .container {
+          padding: 4% 10%;
+        }
 
-      .title {
-        text-align: center;
-      }
+        .title {
+          text-align: center;
+        }
 
-      .row {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-      }
+        .row {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+        }
 
-      .col {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-      }
+        .col {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+        }
 
-      .color-box {
-        width: 100px;
-        height: 100px;
-        margin: 10px;
-        background-color: var(--color);
-        border-radius: 10%;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ffffff1a;
-      }
-    `
-  ];
+        .color-box {
+          width: 100px;
+          height: 100px;
+          margin: 10px;
+          background-color: var(--color);
+          border-radius: 10%;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #ffffff1a;
+        }
+      `,
+    ];
+  }
 
   render() {
     return html`

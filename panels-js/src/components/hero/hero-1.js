@@ -1,19 +1,19 @@
-import { LitElement, html, css } from 'lit';
-import { customElement } from 'lit/decorators.js';
+import { LitElement, html, css } from "lit";
 
-import { utilities } from '../../styles/panel-utilities';
+import { utilities } from "../../styles/panel-utilities";
 
-@customElement('hero-1')
 export class Hero1 extends LitElement {
-  static styles = [
-    utilities,
-    css`
-      h5 {
-        color: var(--primary-3);
-        margin-bottom: 24px !important;
-      }
-    `
-  ];
+  static get styles() {
+    return [
+      utilities,
+      css`
+        h5 {
+          color: var(--primary-3);
+          margin-bottom: 24px !important;
+        }
+      `,
+    ];
+  }
 
   render() {
     return html`

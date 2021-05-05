@@ -1,18 +1,18 @@
-import { LitElement, html, css } from 'lit';
-import { customElement } from 'lit/decorators.js';
+import { LitElement, html, css } from "lit";
 
-import { utilities } from '../../styles/panel-utilities';
+import { utilities } from "../../styles/panel-utilities";
 
-@customElement('hero-2')
 export class Hero2 extends LitElement {
-  static styles = [
-    utilities,
-    css`
-      panel-base {
-        --panel-gradient: var(--gradient-7);
-      }
-    `
-  ];
+  static get styles() {
+    return [
+      utilities,
+      css`
+        panel-base {
+          --panel-gradient: var(--gradient-7);
+        }
+      `,
+    ];
+  }
 
   render() {
     return html`

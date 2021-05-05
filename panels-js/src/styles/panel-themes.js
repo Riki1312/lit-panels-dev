@@ -1,4 +1,4 @@
-import { css } from 'lit';
+import { css } from "lit";
 
 export const colors = css`
   :host {
@@ -32,7 +32,7 @@ export const colors = css`
 
 export const typography = css`
   .display-1 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 96px;
     line-height: 96px;
     font-weight: 700;
@@ -41,7 +41,7 @@ export const typography = css`
     margin-bottom: 36px;
   }
   .display-2 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: clamp(40px, 10vw, 88px);
     font-weight: 700;
     letter-spacing: -0.02em;
@@ -49,7 +49,7 @@ export const typography = css`
     margin-bottom: 36px;
   }
   .display-3 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 72px;
     line-height: 72px;
     font-weight: 700;
@@ -58,7 +58,7 @@ export const typography = css`
     margin-bottom: 24px;
   }
   .display-4 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 54px;
     line-height: 54px;
     font-weight: 700;
@@ -68,7 +68,7 @@ export const typography = css`
   }
 
   .heading-1 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 40px;
     line-height: 44px;
     font-weight: 600;
@@ -77,7 +77,7 @@ export const typography = css`
     margin-bottom: 24px;
   }
   .heading-2 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: clamp(28px, 4vw, 32px);
     font-weight: 600;
     letter-spacing: -0.02em;
@@ -85,7 +85,7 @@ export const typography = css`
     margin-bottom: 24px;
   }
   .heading-3 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 28px;
     line-height: 36px;
     font-weight: 600;
@@ -94,7 +94,7 @@ export const typography = css`
     margin-bottom: 24px;
   }
   .heading-4 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     line-height: 30px;
     font-weight: 600;
@@ -103,7 +103,7 @@ export const typography = css`
     margin-bottom: 16px;
   }
   .heading-5 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     line-height: 28px;
     font-weight: 600;
@@ -112,7 +112,7 @@ export const typography = css`
     margin-bottom: 12px;
   }
   .heading-6 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
@@ -122,21 +122,21 @@ export const typography = css`
   }
 
   .lead-text {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     line-height: 28px;
     font-weight: 500;
     letter-spacing: 0em;
   }
   .body-text {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     letter-spacing: 0em;
   }
   .small-text {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 14px;
     line-height: 22px;
     font-weight: 600;
