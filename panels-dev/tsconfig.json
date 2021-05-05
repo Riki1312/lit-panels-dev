@@ -1,31 +1,15 @@
 {
   "compilerOptions": {
     "strict": true,
+    "allowJs": true,
     "target": "esnext",
     "module": "esnext",
     "lib": ["ESNext", "dom"],
     "rootDir": "src",
     "outDir": "dist",
-    "esModuleInterop": true,
-    "sourceMap": true,
-    "allowJs": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "forceConsistentCasingInFileNames": true,
-    "plugins": [
-      {
-        "name": "ts-lit-plugin",
-        "strict": true,
-        "rules": {
-          "no-missing-import": "off"
-        }
-      }
-    ]
+    "forceConsistentCasingInFileNames": true
   },
   "exclude": ["dist/**/*", "rollup.config.js"]
 }
