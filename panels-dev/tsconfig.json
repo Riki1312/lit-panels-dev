@@ -11,5 +11,6 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true
   },
+  "include": ["src/**/*"],
   "exclude": ["dist/**/*", "rollup.config.js"]
 }
