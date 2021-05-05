@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npx web-dev-server",
     "build": "rollup -c",
-    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix",
     "prettier-format": "prettier . --write"
   },
   "dependencies": {
