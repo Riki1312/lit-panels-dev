@@ -17,7 +17,7 @@ export class Hero2 extends LitElement {
   render() {
     return html`
       <panel-base>
-        <h1 class="display-2">Built to stand out.</h1>
+        <h1 class="display-2">Built to stand out!</h1>
         <div>
           <h3 class="heading-2 inline">Build with Panels.</h3>
           <h4 class="heading-2 inline opacity-50">
