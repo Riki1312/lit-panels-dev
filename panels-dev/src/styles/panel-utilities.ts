@@ -26,6 +26,10 @@ const _layout = css`
     margin: 0px 10px;
   }
 
+  .section {
+    margin: 80px 0px;
+  }
+
   @media (min-width: ${breakpoints.md}px) {
     .page-container {
       margin: 0px 40px;

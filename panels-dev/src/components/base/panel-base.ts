@@ -9,24 +9,28 @@ export class PanelBase extends LitElement {
   static styles = [
     utilities,
     css`
+      :host {
+        --panel-padding: 80px;
+        --panel-color: var(--gray-2);
+      }
+
       .panel {
-        padding: 80px 28px;
+        padding: var(--panel-padding) calc(var(--panel-padding) * 0.4);
         margin: 24px 0px;
         border-radius: 12px;
-
-        background-color: var(--panel-color, var(--gray-2));
+        background-color: var(--panel-color);
         background-image: var(--panel-gradient);
       }
 
       @media (min-width: ${breakpoints.md}px) {
         .panel {
-          padding: 80px;
+          padding: var(--panel-padding);
         }
       }
 
       @media (min-width: ${breakpoints.lg}px) {
         .panel {
-          padding: 120px;
+          padding: calc(var(--panel-padding) * 1.5);
         }
       }
     `

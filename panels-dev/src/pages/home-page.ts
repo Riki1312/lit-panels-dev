@@ -13,6 +13,9 @@ export class HomePage extends LitElement {
         <div class="page-container">
           <hero-1></hero-1>
           <hero-2></hero-2>
+          <div class="section">
+            <hero-3></hero-3>
+          </div>
         </div>
       </div>
     `;

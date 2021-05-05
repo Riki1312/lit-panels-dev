@@ -1,4 +1,4 @@
-import { h, T, c as colors, t as typography, r, _ as __decorate, n } from './panel-themes-491ca7e7.js';
+import { h, T, c as colors, t as typography, r, _ as __decorate, n } from './panel-themes-905be274.js';
 
 let StylePage = class StylePage extends h {
     render() {
