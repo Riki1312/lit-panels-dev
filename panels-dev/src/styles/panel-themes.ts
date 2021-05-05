@@ -50,7 +50,8 @@ export const typography = css`
   }
   .display-3 {
     font-family: 'Inter', sans-serif;
-    font-size: clamp(34px, 8vw, 72px);;
+    font-size: 72px;
+    line-height: 72px;
     font-weight: 700;
     letter-spacing: -0.02em;
     margin-top: 0px;

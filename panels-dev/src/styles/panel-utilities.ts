@@ -20,10 +20,6 @@ const _layout = css`
     color: var(--white-1);
   }
 
-  .section {
-    margin: 80px 0px;
-  }
-
   .page-container {
     width: 100%;
     max-width: ${breakpoints.xl}px;
@@ -33,10 +29,6 @@ const _layout = css`
   @media (min-width: ${breakpoints.md}px) {
     .page-container {
       margin: 0px 40px;
-    }
-
-    .section {
-      margin: 120px 0px;
     }
   }
 `;
