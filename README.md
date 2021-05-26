@@ -2,6 +2,8 @@
 
 https://lit-panels-dev.vercel.app/
 
+Test new project structure with [Vite](https://vitejs.dev/).
+
 ## Building
 
 To build the site from the source, ensure you're using the most recent versions of Node and NPM, and pull the latest from master.
